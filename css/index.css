@@ -3,19 +3,25 @@ body{
     background-size:cover;
    background-attachment:fixed;
 }
-.title{
+.index-page{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+}
+.title1{
+     text-align:center;
+     margin-top:50px;
+     font-size:28px;
+     color:#fff;
+    }
+.title2{
      text-align:center;
      margin-top:50px;
      font-size:28px;
      color:#fff;
     }
     
-.title2{
-    text-align:center;
-     margin-top:50px;
-     font-size:28px;
-     color:#fff;
-}
+
 .copyright{
     text-align:center;
     margin-top:500px;
