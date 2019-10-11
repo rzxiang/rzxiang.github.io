@@ -1,29 +1,31 @@
+html {
+    height: 100%;
+  }
 body{
-    background:url(../image/lake.jpg) no-repeat;
+    /* background:url(../image/lake.jpg) no-repeat; */
+    height:100%;
     background-size:cover;
    background-attachment:fixed;
+   display:flex;
+   display: -webkit-flex;
+   flex-direction: column;
+   -webkit-flex-direction: column; 
+
 }
-.index-page{
-    display:flex;
-    justify-content:space-between;
-    flex-direction:column;
+.content{
+   height:90%;
+   
 }
 .title1{
      text-align:center;
      margin-top:50px;
      font-size:28px;
-     color:#fff;
     }
-.title2{
-     text-align:center;
-     margin-top:50px;
-     font-size:28px;
-     color:#fff;
-    }
+
     
 
-.copyright{
+.footer{
+    flex:1;
     text-align:center;
-    margin-top:500px;
-    color:#fff;
+    height:50px;
 }
